@@ -1,0 +1,239 @@
+/* CORPS GLOBAL */
+body {
+  background-color: #002B43;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  height: auto;
+  overflow-y: scroll;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #002B43;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* AM */
+.name {
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* LOGO AM */
+.logo-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-image img {
+  width: 50px;
+  height: auto;
+}
+
+/* ESPACEMENT NAVIGATION */
+nav li {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+/* ALIGNEMENT NAVIGATION */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* BOUTONS NAVIGATION */
+nav a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* FLEXBOX DATA S + BOUTONS */
+.left-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002B43;
+  padding: 10px;
+  color: white;
+}
+
+/* DATA SCIENTIST */
+.left-text {
+  font-size: 800%;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+/* BOUTONS HIRE + DOWNLOAD */
+.left-buttons button {
+  margin-top: 15px;
+  font-size: 20%;
+  margin-right: 15%;
+  padding: 10px 25px;
+  font-size: 14;
+  border-radius: 50px;
+  border : none;
+  color: white;
+  font-weight: bold;
+  background-color: #1ab17f;
+}
+
+/* ROBOT HELLO */
+.right-image img {
+  width: 100%;
+  height: auto;
+  float: right;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+/* VIDEO CONTAINER */
+.video-container {
+  align-items: center;
+  justify-content: center;
+  margin-left: 34%;
+}
+
+/* ABOUT ME SECTION */
+.about-section {
+  padding: 40px;
+  margin-top: 20%;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* TITLE ABOUT ME */
+.about-title {
+  color: #ffffff;
+  font-size: 500%;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+/* DESCRIPTION ABOUT ME */
+.about-description {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  margin-top: 200px;
+  padding: 40px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 100%;
+}
+
+/* TITLE CONTACT ME */
+.contact-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTACT */
+.contact-text {
+  color: #ffffff;
+  font-size: 500%;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+/* ME */
+.me-text {
+  color: #1ab17f;
+  font-size: 500%;
+  font-weight: bold;
+}
+
+/* ! */
+.ponctuation-text {
+  color: #ffffff;
+  font-size: 500%;
+  font-weight: bold;
+}
+
+/* FLEXBOX CONTACT */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ROBOT TELEPHONE */
+.contact-info img {
+  width: auto;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  align-items: center;
+}
+
+/* FORMULAIRE */
+.contact-form {
+  flex-grow: 1;
+  text-align: left;
+  align-self: center;
+}
+
+/* ESPACEMENT */
+.contact-form form {
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+}
+
+/* LABELS FORMULAIRE */
+.contact-form label {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+/* CASES FORMULAIRE */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  color: white;
+  border : none;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.158);
+  margin-bottom: 10%;
+}
+
+/* BOUTON ENVOIE */
+.contact-form button {
+  background-color: #1ab17f;
+  color: #ffffff;
+  padding: 8px 15px;
+  margin-top: 10px;
+  width: 125px;
+  border: none;
+  font-size: larger;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+}
+
+/* IMAGE BOUTON ENVOIE */
+.contact-form button img {
+  height: 20px;
+  margin-left: 10px;
+}
